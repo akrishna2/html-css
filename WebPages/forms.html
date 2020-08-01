@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> Puppy Adoption Page</title>
+    <link rel="stylesheet" type="text/css" href="resources/CSS/master.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+</head>
+<body>
+<form action="different.html" method="get">
+    <h1 class="pagetitle">Puppy Adoption Page</h1>
+
+    <h2>Please enter your information to adopt the puppy and we will email you back</h2>
+
+    <h3>Please note first name,lastname,password and emailid are required</h3>
+    <div class="headers-section">
+        <h3>Here you can adopt puppies in need of &nbsp;&nbsp;&nbsp;<span>HOME</span></h3>
+    </div>
+    <br>
+    <div class="userinfo">
+        <label for="fname"> First Name:
+        <input id="fname" type="text" name="fname" placeholder="First Name Here" required>
+        </label>
+        <label for="lanme">Last Name:
+        <input id="lanme" type="text" name="lname" placeholder="Last Name Here" required>
+        </label>
+        <br>
+        <br>
+        <label for="emailid"> Email:
+        <input id="emailid" type="email" name="username" placeholder="username@email.com" required>
+        </label>
+        <label for="password">Password:
+        <input id="password" type="password" name="setpassword" placeholder="" required minlength="4" maxlength="10">
+        </label>
+        <br>
+        <p> Are you over the age of 18?</p>
+        <label for="yes"> Yes:
+        <input id="yes" type="radio" name="age18" value="yes">
+        </label>
+        <label for="no">No:
+        <input id="no" type="radio" name="age18" value="no">
+        </label>
+
+        <p> Please input you DOB :</p>
+        <label>
+            DOB:
+            <input type="month" name="dob"  required max="2002-08" value="1993-08">
+        </label>
+    </div>
+    <br>
+    <p id="h3main">Do you have a Credit Card or Paypal?</p>
+    <label>
+        <select name="payment" required>
+            <option value="CC"> Credit Card</option>
+            <option value="PP">PayPal</option>
+        </select>
+    </label>
+    <br>
+    <br>
+    <input type="submit" name="submit" value="Submit">
+
+    <table>
+        <thead>
+        <tr>
+            <td>Puppy Breed</td>
+            <td>Puppy Image</td>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>Husky</td>
+            <td><img width="400" src="resources/Images/husky.jpg"> </td>
+        </tr>
+        <tr>
+            <td>Labrador</td>
+            <td><img width="400" src="resources/Images/lab.jpg"> </td>
+        </tr>
+        <tr>
+            <td>Retriever</td>
+            <td><img width="400" src="resources/Images/ret.jpg"></td>
+        </tr>
+        <tr>
+            <td>Rottweiler</td>
+            <td><img width="400" src="resources/Images/rot.jpg"></td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

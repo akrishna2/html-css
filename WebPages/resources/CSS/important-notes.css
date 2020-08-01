@@ -1,0 +1,56 @@
+/*class*/
+.pagetitle{
+
+}
+
+/*id*/
+#h3main{
+
+}
+
+/*star -  Selects all the elements in a page*/
+*{
+
+}
+
+/*Desendent- Select all elements that are inside a tag, in below example selects all a tags inside li*/
+li a{
+
+}
+
+/*Adjacent- Select elemets next to a particular tag- in below example it selects all div's after a H1 tag'*/
+h1+div{
+
+}
+
+/*Attribute Selector- Selects elements based on attributes*/
+input[type='checkbox']{
+
+}
+
+a[href="example.com"]{
+
+}
+
+/*nth type of an element - Selects all 3rd occurrence of ul tag*/
+
+ul:nth-of-type(3){
+
+}
+
+
+/*Box Model: Very Very Important*/
+p{
+    /*content*/
+    width:200px;
+    height: 200px;
+
+    /*border*/
+    border: 2px solid black;
+
+    /*margin*/
+    margin: 0 auto 0 auto; /* top,right,bottom,left*/
+
+    /*padding*/
+    padding: 10px;
+}

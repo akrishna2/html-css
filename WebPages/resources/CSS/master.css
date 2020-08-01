@@ -1,0 +1,82 @@
+/*Element*/
+li{
+
+}
+
+
+/*=============================================================================*/
+h1{
+	color: black;
+}
+
+/*Syntax for class names*/
+.pagetitle{
+	color: black;
+}
+
+/*Syntax for id */
+#h3main{
+	color: black;
+	font-size: 30px;
+}
+
+h2{
+	/*color: rgb(209, 209, 21);*/
+	color: black;
+}
+
+
+div.headers-section{
+
+	background: blue;
+	border-color: orange;
+	border-width: thick;
+	border-style: double;
+	height: 70px;
+	width: 450px; 
+	color: white;
+	font-family: 'Ranchers', cursive;
+	font-size: 20px;
+	font-style: italic;
+}
+
+div.userinfo{
+	color: black;
+	font-size: 30px;
+}
+
+span{
+	font-family: cursive;
+	background: yellow;
+	color: black;
+	border: orange 6px dotted;
+
+}
+
+body{
+	background: lavender;
+	background-size: cover;
+}
+
+table,td, th {
+	margin-top: 10px;
+	margin-left: 4px;
+	border: 2px blue solid;
+	color: black;
+	background: white;
+
+
+}
+
+thead{
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+tbody{
+	font-size: 25px;
+
+
+}
+
