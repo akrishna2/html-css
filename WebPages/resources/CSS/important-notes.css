@@ -54,3 +54,24 @@ p{
     /*padding*/
     padding: 10px;
 }
+
+
+/*Bootstrap */
+
+/*Use containers where ever necessary*/
+
+ /*Using jQuery - Go to code.jquery.com and include the uncompressed file link to your html in the body before using JS*/
+
+/*Ex- <script src="https://code.jquery.com/jquery-3.5.1.js"  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="  crossorigin="anonymous"></script>*/
+
+/*Using JS - Either use CDN link or use the file in the downloaded boot starp*/
+
+/*A Grid consists of 12 units - Each element has to be designed based on how many units they should atke out of 12*/
+/*Grid is always inside a container*/
+/*Example :*/
+/*<div class = "container">
+<div class="row">
+<div class="col-lg-2">Column 2 </div>
+<div class="col-lg-8">Column 8 </div>
+<div class="col-lg-2">Column 2 </div>"*/
+
