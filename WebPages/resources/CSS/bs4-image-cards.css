@@ -1,0 +1,14 @@
+#header{
+    background-image: url("../Images/dog-human.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*opacity: 60%;*/
+}
+.header{
+    color: white;
+}
+
+.sub-title{
+    font-size: 3rem;
+}

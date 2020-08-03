@@ -1,0 +1,23 @@
+img{
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin: 1.66%;
+}
+
+h1{
+
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    border-bottom: 2px solid lightcyan;
+    width: 30%;
+    margin-left: 1.66%;
+    padding-bottom: 30px;
+
+}
+body{
+    background: black;
+}
+
